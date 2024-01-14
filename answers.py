@@ -22,10 +22,10 @@ helloWordsAnswers = [
 timeQuestions = ['What time is it?', 'Can you tell me the time?', 'Do you know what time it is?', 'What\'s the current time?', 'time']
 current_time = datetime.datetime.now().strftime('%H:%M')  # Get current time in HH:MM format
 timeAnswers = [
-    f'It is currently {current_time}.',
-    f'The time is {current_time}.',
-    f'As of now, it\'s {current_time}.',
-    f'The current time is {current_time}.',
+    f'It is currently ',
+    f'The time is ',
+    f'As of now, it\'s ',
+    f'The current time is ',
 ]
 
 # Q and A for inquiring about the date
