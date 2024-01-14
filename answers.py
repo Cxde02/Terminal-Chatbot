@@ -182,6 +182,42 @@ funFactAnswers = [
     'Fun fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!'
 ]
 
+#Q and A for movies/shows
+movieQuestions = [
+    'Can you recommend a movie?',
+    'What should I watch tonight?',
+    'Suggest a good movie',
+    'I need a movie recommendation',
+    'What movie should I watch?',
+    'movie',
+    'show',
+]
+
+movieAnswers = [
+    'Sure, how about watching "The Shawshank Redemption"? It\'s a classic!',
+    'For a great movie night, I recommend "Inception." The mind-bending plot is a must-watch!',
+    'If you enjoy animated films, "Toy Story" is a fantastic choice with humor and heart.',
+    'If you enjoy animated films, "Cars 1/2/3" is a fantastic choice with race and humor',
+    'How about a thrilling experience with "The Dark Knight"? It\'s a masterpiece by Christopher Nolan.',
+    'If you\'re in the mood for a feel-good movie, "Forrest Gump" is a timeless classic.',
+    'For a mind-twisting series, check out "Stranger Things" on Netflix.',
+    'If you love horror, "The Last Of Us" is an epic TV show with intricate plots and characters.',
+    'Consider watching "The Godfather" for a cinematic masterpiece with a gripping storyline.',
+    'Looking for a comedy? "The Grand Budapest Hotel" is a delightful and quirky choice.',
+    'If you\'re into science fiction, "Blade Runner 2049" offers stunning visuals and a compelling story.',
+    'For a mix of action and humor, "The Avengers" is a great superhero ensemble film.',
+    'For a mix of action and humor, "The Amazing Spider-man" is a great superhero ensemble film.',
+    'Explore the world of magic and adventure with the "Harry Potter" series.',
+    'For a captivating documentary, "Planet Earth II" showcases stunning visuals of the natural world.',
+    'Get ready for a rollercoaster of emotions with "The Pursuit of Happyness."',
+    'If you\'re a fan of drama, "Breaking Bad" is a gripping TV series with intense character development.',
+    'For a classic romantic comedy, "When Harry Met Sally" is a delightful choice.',
+    'Experience the magic of animation with "Spirited Away" from Studio Ghibli.',
+    'Unleash your inner detective with the mystery series "Sherlock."',
+    'If you\'re into mind-bending plots, "Black Mirror" is a thought-provoking anthology series.',
+    'For a heartwarming animated film, "Up" is a beautiful adventure filled with emotions.'
+]
+
 
 
 
