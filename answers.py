@@ -191,6 +191,7 @@ movieQuestions = [
     'What movie should I watch?',
     'movie',
     'show',
+    'film',
 ]
 
 movieAnswers = [
