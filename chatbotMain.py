@@ -1,12 +1,15 @@
 import answers
 import random
 
-print('\n-----------------CHAT BOT-----------------')
+print('===========================================')
+print('|                CHAT BOT                 |')
+print('===========================================')
 
 while True:
     userInput = input('User: ').lower()
 
     # Check if the user asked an empty question
+    #i.e press enter to stop
     if not userInput.strip():
         print('Bot: Goodbye!')
         break
@@ -84,6 +87,15 @@ while True:
                 found_word = True
                 break
 
-    # If neither hello word nor time word is found, print "Did not understand"
+    # Check for movies
+    if not found_word:
+        for movie_word in answers.movieQuestions:
+            if movie_word in userInput:
+                response = random.choice(answers.movieAnswers)
+                print(f'Bot: {response}')
+                found_word = True
+                break
+
+    # If nothing is found
     if not found_word:
         print('Bot: Did not understand')
