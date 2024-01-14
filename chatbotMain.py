@@ -1,3 +1,4 @@
+import datetime
 import answers
 import random
 
@@ -28,8 +29,9 @@ while True:
     if not found_word:
         for time_word in answers.timeQuestions:
             if time_word in userInput:
+                current_time = datetime.datetime.now().strftime('%H:%M')  # Get current time in HH:MM format
                 response = random.choice(answers.timeAnswers)
-                print(f'Bot: {response}')
+                print(f'Bot: {response}{current_time}.')
                 found_word = True
                 break
 
