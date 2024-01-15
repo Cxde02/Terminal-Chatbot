@@ -1,5 +1,6 @@
 import datetime
 import answers
+import misunderstandings
 import random
 
 print('===========================================')
@@ -100,4 +101,4 @@ while True:
 
     # If nothing is found
     if not found_word:
-        print('Bot: Did not understand')
+        print(f'Bot: {random.choice(misunderstandings.tryAgain)}')
