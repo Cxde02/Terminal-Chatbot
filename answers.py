@@ -165,6 +165,7 @@ funFactQuestions = [
     'Tell me something cool.',
     'fun fact',
     'interesting fact',
+    'fact',
 ]
 
 funFactAnswers = [
